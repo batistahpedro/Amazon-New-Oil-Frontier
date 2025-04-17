@@ -1,4 +1,4 @@
-# Amazon-New-Oil-Frontier
+# Amazon’s New Oil Frontier: A Biodiversity Bomb in the Making? 
 
 This repository supports the spatial analysis behind the article:
 
