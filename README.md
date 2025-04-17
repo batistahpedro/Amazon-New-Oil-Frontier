@@ -5,10 +5,10 @@ This repository supports the spatial analysis behind the article:
 > **Amazon’s New Oil Frontier: A Biodiversity Bomb in the Making?**  
 > _Submitted as a Nature Comment_
 
-The article explores the ecological risks associated with offshore oil and gas development along Brazil’s Foz do Amazonas, highlighting how such infrastructure overlaps or lies dangerously close to biodiversity priority areas. This repository contains the code, data structure, and diagnostics used to quantify these spatial relationships.
+The article explores the ecological risks associated with offshore oil and gas development along Brazil’s Foz do Amazonas, highlighting how such infrastructure overlaps or lies dangerously close to biodiversity priority areas. This repository contains the code, data structure, diagnostics used to quantify these spatial relationships and final results.
 
-Shapefiles (https://drive.google.com/drive/folders/1BXIuKeB45blt6lMmfuZfsxzy9cKO6E80?usp=sharing)
----
+
+
 
 ## 🌍 Project Overview
 
@@ -23,6 +23,16 @@ The main goal is to evaluate the spatial relationship between infrastructure and
 
 ---
 
+
+### 🗂️ Shapefiles Access
+
+All spatial datasets used in the analysis — including sedimentary basins, priority areas (Amazon, Cerrado, Caatinga, ZCM, Hybrid zones), exploration blocks, offered blocks, ports, and airports — are available via Google Drive:
+
+📁 [Access the full set of shapefiles here](https://drive.google.com/drive/folders/1BXIuKeB45blt6lMmfuZfsxzy9cKO6E80?usp=sharing)
+
+Each subfolder corresponds to a thematic layer used in the geoprocessing workflow. These files are not version-controlled in the repository due to their size and format but are publicly accessible for transparency and reproducibility.
+
+---
 
 ## 🧰 Technologies Used
 
