@@ -25,10 +25,10 @@ The main goal is to evaluate the spatial relationship between infrastructure and
 
 ```none
 Amazon-New-Oil-Frontier/
-├── Results/                      # Output Excel files (diagnostics)
-├── shapefiles/                   # Shapefiles (https://drive.google.com/drive/folders/1BXIuKeB45blt6lMmfuZfsxzy9cKO6E80?usp=sharing)
-├── analysis/                     # Python scripts
-└── README.md                     # Project documentation (this file)
+── Results/                      # Output Excel files (diagnostics)
+── shapefiles/                   # Shapefiles (https://drive.google.com/drive/folders/1BXIuKeB45blt6lMmfuZfsxzy9cKO6E80?usp=sharing)
+── analysis/                     # Python scripts
+── README.md                     # Project documentation (this file)
 
 
 ---
