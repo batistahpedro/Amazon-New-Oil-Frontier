@@ -7,6 +7,7 @@ This repository supports the spatial analysis behind the article:
 
 The article explores the ecological risks associated with offshore oil and gas development along Brazil’s Equatorial Margin, highlighting how such infrastructure overlaps or lies dangerously close to biodiversity priority areas. This repository contains the code, data structure, and diagnostics used to quantify these spatial relationships.
 
+Shapefiles (https://drive.google.com/drive/folders/1BXIuKeB45blt6lMmfuZfsxzy9cKO6E80?usp=sharing)
 ---
 
 ## 🌍 Project Overview
@@ -79,15 +80,6 @@ This serves as a **robustness check** to visually confirm if the calculations ar
 - All data processing is done **feature-by-feature** with console feedback for traceability.
 
 ---
-
-## 📂 Folder Structure
-
-```none
-Amazon-New-Oil-Frontier/
-── Results/                      # Output Excel files (diagnostics)
-── shapefiles/                   # Shapefiles (https://drive.google.com/drive/folders/1BXIuKeB45blt6lMmfuZfsxzy9cKO6E80?usp=sharing)
-── analysis/                     # Python scripts
-── README.md                     # Project documentation (this file)
 
 
 # 📊 Spatial Diagnostics — Foz do Amazonas
