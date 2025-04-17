@@ -19,17 +19,6 @@ The main goal is to evaluate the spatial relationship between infrastructure and
 - Exporting all results to Excel for integration into scientific figures and decision-making.
 - Generating interactive maps to visually validate the calculations (robustness check).
 
----
-
-## 📂 Folder Structure
-
-```none
-Amazon-New-Oil-Frontier/
-── Results/                      # Output Excel files (diagnostics)
-── shapefiles/                   # Shapefiles (https://drive.google.com/drive/folders/1BXIuKeB45blt6lMmfuZfsxzy9cKO6E80?usp=sharing)
-── analysis/                     # Python scripts
-── README.md                     # Project documentation (this file)
-
 
 ---
 
@@ -88,6 +77,17 @@ This serves as a **robustness check** to visually confirm if the calculations ar
 - Results are exported in **EPSG:4326 (WGS84)** for compatibility with GIS/web tools.
 - All distances in the diagnostics are reported in **kilometers (km)**.
 - All data processing is done **feature-by-feature** with console feedback for traceability.
+
+---
+
+## 📂 Folder Structure
+
+```none
+Amazon-New-Oil-Frontier/
+── Results/                      # Output Excel files (diagnostics)
+── shapefiles/                   # Shapefiles (https://drive.google.com/drive/folders/1BXIuKeB45blt6lMmfuZfsxzy9cKO6E80?usp=sharing)
+── analysis/                     # Python scripts
+── README.md                     # Project documentation (this file)
 
 
 
