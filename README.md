@@ -9,16 +9,17 @@ The article explores the ecological risks associated with offshore oil and gas d
 
 
 
-
 ## 🌍 Project Overview
 
-The main goal is to evaluate the spatial relationship between infrastructure and conservation-relevant areas using geospatial analysis. This includes:
+The goal of this project is to evaluate the spatial proximity between offshore oil and gas blocks—both under active concession and currently offered in Brazil’s 5th Permanent Offer Cycle—and nationally designated biodiversity priority areas along the Foz do Amazonas. The analysis also includes auxiliary infrastructure such as port and airport.
 
-- Identifying whether a block or infrastructure intersects biodiversity priority areas.
-- Calculating the percentage of overlap with priority zones.
-- Measuring the minimum distance to the nearest priority area.
-- Exporting all results to Excel for integration into scientific figures and decision-making.
-- Generating interactive maps to visually validate the calculations (robustness check).
+This is achieved through geospatial diagnostics that:
+
+- Determine whether each block or facility intersects a conservation area.
+- Calculate the percentage of overlap when intersections occur.
+- Measure the shortest distance to the nearest priority zone when no intersection is found.
+- Export all results to Excel to support scientific communication and policy decision-making.
+- Generate interactive maps for visual validation of spatial relationships and calculated distances.
 
 
 ---
