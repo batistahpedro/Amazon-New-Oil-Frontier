@@ -2,8 +2,7 @@
 
 This repository supports the spatial analysis behind the article:
 
-> **Amazon’s New Oil Frontier: A Biodiversity Bomb in the Making?**  
-> _Submitted as a Nature Comment_
+> **Amazon’s New Oil Frontier: A Biodiversity Bomb in the Making?** 
 
 The article explores the ecological risks associated with offshore oil and gas development along Brazil’s Foz do Amazonas, highlighting how such infrastructure overlaps or lies dangerously close to biodiversity priority areas. This repository contains the code, data structure, diagnostics used to quantify these spatial relationships and final results.
 
