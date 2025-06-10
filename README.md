@@ -193,7 +193,5 @@ We used publicly available spatial data from two official Brazilian sources:
   🔗 [https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/biomas-e-ecossistemas/conservacao-1/areas-prioritarias/2a-atualizacao-das-areas-prioritarias-para-conservacao-da-biodiversidade-2018](https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/biomas-e-ecossistemas/conservacao-1/areas-prioritarias/2a-atualizacao-das-areas-prioritarias-para-conservacao-da-biodiversidade-2018)  
   Dataset: *Priority Areas for Conservation, Sustainable Use, and Benefit-Sharing of Biodiversity (Áreas Prioritárias para Conservação, Uso Sustentável e Repartição de Benefícios da Biodiversidade)* — 2018 official update.
 
-These datasets were used to assess spatial overlaps and proximity between extractive infrastructure and priority conservation zones along the Foz do Amazonas Basin.
-
 ### 📏 Projection and Scale  
 All vector layers were reprojected to **EPSG:4674 (SIRGAS 2000)** for cartographic consistency with Brazilian standards. 
