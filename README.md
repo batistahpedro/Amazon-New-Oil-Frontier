@@ -165,3 +165,30 @@ This serves as a **robustness check** to visually confirm if the calculations ar
 - ✅ **FZA-M-86** — intersects (Extremely High)
 - ❌ **FZA-M-59** — no intersection, dist = 37.40 km
 
+
+
+## 🗺️ Figure 1 — Spatial Overlap Between Oil & Gas Blocks and Biodiversity Priority Zones
+
+**Figure 1** presents the spatial relationship between offshore oil and gas infrastructure and areas officially designated as biodiversity priorities in Brazil's Foz do Amazonas Basin. The map highlights both direct overlaps and proximity zones, illustrating the extent to which extractive frontiers intersect with conservation goals.
+
+### 🧭 Map Production  
+This map was produced using **QGIS**, an open-source geographic information system. All layers were imported, reprojected, styled, and exported within QGIS to ensure cartographic clarity and spatial accuracy. The final figure was generated in high resolution for inclusion in the article _Amazon’s New Oil Frontier: A Biodiversity Bomb in the Making?_
+
+The full QGIS project (`.qgz`) and all associated shapefiles—covering offered blocks, exploratory wells, and biodiversity priority areas—can be accessed here:  
+📁 [Access the full set of shapefiles here](https://drive.google.com/drive/folders/1BXIuKeB45blt6lMmfuZfsxzy9cKO6E80?usp=sharing)
+
+### 🌐 Data Sources  
+
+- **Oil and Gas Infrastructure**  
+  Source: *Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)*  
+  🔗 [https://geomaps.anp.gov.br/](https://geomaps.anp.gov.br/)  
+  Layers used:  
+  - `"OPC - Blocos Ofertados - 5° Ciclo"` — offshore blocks currently under offer  
+  - `"Wells > Public Wells > Exploration"` — exploratory well locations
+
+- **Biodiversity Priority Areas**  
+  Source: *Ministério do Meio Ambiente (MMA)*  
+  🔗 [https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/biomas-e-ecossistemas/conservacao-1/areas-prioritarias/2a-atualizacao-das-areas-prioritarias-para-conservacao-da-biodiversidade-2018](https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/biomas-e-ecossistemas/conservacao-1/areas-prioritarias/2a-atualizacao-das-areas-prioritarias-para-conservacao-da-biodiversidade-2018)
+
+### 📏 Projection and Scale  
+All vector layers were reprojected to **EPSG:4674 (SIRGAS 2000)** for cartographic consistency with Brazilian standards. 
