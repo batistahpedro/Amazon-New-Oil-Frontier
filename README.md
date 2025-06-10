@@ -177,18 +177,23 @@ This map was produced using **QGIS**, an open-source geographic information syst
 The full QGIS project (`.qgz`) and all associated shapefiles—covering offered blocks, exploratory wells, and biodiversity priority areas—can be accessed here:  
 📁 [Access the full set of shapefiles here](https://drive.google.com/drive/folders/1BXIuKeB45blt6lMmfuZfsxzy9cKO6E80?usp=sharing)
 
-### 🌐 Data Sources  
+### 🌐 Data Sources
+
+We used publicly available spatial data from two official Brazilian sources:
 
 - **Oil and Gas Infrastructure**  
-  Source: *Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)*  
+  Source: *National Agency for Oil, Natural Gas and Biofuels (Agência Nacional do Petróleo, Gás Natural e Biocombustíveis – ANP)*  
   🔗 [https://geomaps.anp.gov.br/](https://geomaps.anp.gov.br/)  
   Layers used:  
-  - `"OPC - Blocos Ofertados - 5° Ciclo"` — offshore blocks currently under offer  
-  - `"Wells > Public Wells > Exploration"` — exploratory well locations
+  - `"OPC - Offered Blocks – 5th Cycle"` (*Blocos Ofertados - 5° Ciclo*) — offshore blocks currently under offer  
+  - `"Wells > Public Wells > Exploration"` (*Poços Públicos > Exploratórios*) — exploratory well locations
 
 - **Biodiversity Priority Areas**  
-  Source: *Ministério do Meio Ambiente (MMA)*  
-  🔗 [https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/biomas-e-ecossistemas/conservacao-1/areas-prioritarias/2a-atualizacao-das-areas-prioritarias-para-conservacao-da-biodiversidade-2018](https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/biomas-e-ecossistemas/conservacao-1/areas-prioritarias/2a-atualizacao-das-areas-prioritarias-para-conservacao-da-biodiversidade-2018)
+  Source: *Ministry of the Environment (Ministério do Meio Ambiente – MMA)*  
+  🔗 [https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/biomas-e-ecossistemas/conservacao-1/areas-prioritarias/2a-atualizacao-das-areas-prioritarias-para-conservacao-da-biodiversidade-2018](https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/biomas-e-ecossistemas/conservacao-1/areas-prioritarias/2a-atualizacao-das-areas-prioritarias-para-conservacao-da-biodiversidade-2018)  
+  Dataset: *Priority Areas for Conservation, Sustainable Use, and Benefit-Sharing of Biodiversity (Áreas Prioritárias para Conservação, Uso Sustentável e Repartição de Benefícios da Biodiversidade)* — 2018 official update.
+
+These datasets were used to assess spatial overlaps and proximity between extractive infrastructure and priority conservation zones along the Foz do Amazonas Basin.
 
 ### 📏 Projection and Scale  
 All vector layers were reprojected to **EPSG:4674 (SIRGAS 2000)** for cartographic consistency with Brazilian standards. 
